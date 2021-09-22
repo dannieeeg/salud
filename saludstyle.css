@@ -1,0 +1,145 @@
+p, li, .description{
+ font-weight: 400;
+ line-height: 1.8rem;
+}
+.sidebar-collapse .navbar-collapse{
+    background: tepxal,80%;
+}
+.sidebar-collapse .navbar-collapse::before{
+    background: linear-gradient(#737c7e,#ccc8c8 80%);
+}
+
+.barpic{
+    padding-bottom: 25px;
+}
+
+.body{
+    background-color: mediumslateblue;
+}
+.
+.bg-primary{
+    background: transparent !important;
+}
+.brand{
+    animation-name: fadeIn;
+    animation-duration: 1.1s;
+}
+.brand .brand-banner .h1-front{
+    background-color: gradient left to right( #51ebffef);
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+    padding-bottom: 200px;
+    justify-content: center;
+}
+
+.brand h3{
+    margin: 0;
+}
+@keyframes fadeIn {
+    0%   {opacity: 0;}
+    25%  {opacity: .25;}
+    50%  {opacity: .50;}
+    100% {opacity: 1;}
+}
+
+.paddingTop{
+    padding-top: 2rem;
+}
+
+
+.navbar-white{
+ background: #fff !important;
+}
+
+.black{
+    color: #6cdbf7;
+}
+.gold, .gold-background, .category{
+    color: #b2a37d !important;
+}
+
+.background-black{
+    background: #000000;
+}
+
+.background-black:hover, .background-black:focus{
+    background: #b2a37d !important;
+}
+
+.form{
+    padding-left: 30rem ;
+    border: mediumslateblue;
+}
+.filter-color{
+    background: linear-gradient(0deg,rgba(44,44,44,.2),#6cdbf7(0,0,0,.8));
+}
+
+.salud{
+    padding-left:40%;
+}
+.peopleInfo{
+height: 400px;
+
+width: 100%;
+background: url("https://picturefood.files.wordpress.com/2011/05/img_80421.jpg");
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+}
+
+.testimony{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peopleInfo h2, .testimony h3{
+    margin: 0;
+}
+section .section-inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-inner h2{
+    color: #fff;
+}
+
+.team{
+    padding: 1rem;
+}
+
+.cto{
+    background: #131313;
+
+}
+.team-player .title, .team-player .description{
+    color: #fff;
+}
+
+.footer{
+    background: #131313;
+    color: #fff;
+}
+
+.thanks .wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 992px)
+.col-lg-6 {
+    width: -webkit-fill-available;
+}
+@media screen and (max-width: 500px){
+    .brand .h1-front{
+        font-size: 2.2rem;
+    }
+}
